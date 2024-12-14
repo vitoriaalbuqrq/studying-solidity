@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleMapping2.sol": "ExampleMappingW"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleMapping2.sol": {
+			"keccak256": "0x18b819827e7211965f99f9f1befdf25f9a609613085fef6f1a0db8e1fa8c4410",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0dcfd75648ac6d728a36fd823d877ecbd28877385a588162c3ec5fe2dd88be71",
+				"dweb:/ipfs/QmdbUTUMnsaEZJvhXfnXy7BnKEK8iEFxWPmhvZZAo5hjCK"
+			]
+		}
+	},
+	"version": 1
+}

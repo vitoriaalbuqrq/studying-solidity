@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "limite",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valorRecebido",
+						"type": "uint256"
+					}
+				],
+				"name": "outOfRange",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "limitada",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "limite",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "recebe",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleError.sol": "Erros"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleError.sol": {
+			"keccak256": "0xa8037353141644558a9380500fea000b0be8a6f0cfbe8912616ecfce6bc7035f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://97744418862624660a900b2f97be69fd1c1d399b841360dddffe3ab71be758ef",
+				"dweb:/ipfs/QmPBFF4U3EMKP1PKUMgjPAWbK3xLfLr3xaToQXScFCCHJu"
+			]
+		}
+	},
+	"version": 1
+}
